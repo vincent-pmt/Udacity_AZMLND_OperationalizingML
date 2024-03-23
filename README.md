@@ -1,18 +1,99 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+<!-- #region -->
+# Udacity Project: AML - Operationalizing Machine Learning
 
-
-# Your Project Title Here
-
-*TODO:* Write an overview to your project.
+Utilize the Bank Marketing dataset to establish a machine learning model in Azure Machine Learning, set it up for cloud-based production, deploy, and then utilize it. Additionally, construct, release, and utilize a pipeline, publish it for wider access, enabling efficient scaling and management of machine learning solutions.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+#### Step 1: Authentication
+- Install the Azure Machine Learning Extension
+- Create Service Principal
+
+![Create SP](/images/Authentication_CreateSP.jpeg)
+
+- Associate it with your specific workspace
+
+![Assign Role](/images/Authentication_AssignRole.jpeg)
+
+#### Step 2: Automated ML Experiment
+- Create bankmarketing dataset
+
+![Create dataset](/images/RegisteredDatasets.jpeg)
+
+- Create an experiment using Automated ML
+
+![Create an experiment](/images/ExperimentCompleted.jpeg)
+
+- Show BestModel
+
+![Best Model](/images/BestModel.jpeg)
+
+#### Step 3: Deploy the Best Model
+
+- Deploy best model 
+- Enable authentication (key-based)
+- Using Azure Container Instance
+![Deploy best model](/images/BestModel_Endpoint.jpeg)
+
+#### Step 4: Enable Logging
+- Enable application insight (by calling service.update(enable_app_insights=True))
+
+![Enable AI](/images/Logs_EnableAI.jpeg)
+
+#### Step 4: Enable Logging
+- Enable application insight (by calling service.update(enable_app_insights=True))
+
+![App Insight](/images/Logs_AIEnabled.jpeg)
+
+![Enable AI](/images/Logs_EnableAI.jpeg)
+
+#### Step 5: Swagger Documentation
+- Consume the deployed model using Swagger.
+
+![Swagger](/images/swagger_localhost.jpeg)
+
+#### Step 6: Consume Model Endpoints
+- use the endpoint.py script provided to interact with the trained model
+
+![consume Model Endpoint](/images/consumeModelEndpoint.jpeg)
+
+#### Step 7: Create, Publish and Consume a Pipeline
+
+- Create pipeline
+
+![create pipeline](/images/pipeline_running.jpeg)
+
+- Show pipeline endpoint, and active status
+
+![pipeline endpoint](/images/pipeline_endpoint.jpeg)
+
+- pipeline - bankmarkerting datasets
+
+![pipeline datasets](/images/pipeline_datasets.jpeg)
+
+- Notebook - RunDetail Widget
+
+![pipeline run details](/images/notebook_RunDetails.jpeg)
+
+- Pipeline - Schedule Run
+
+![pipeline schedule 1](/images/pipeline_schedule.jpeg)
+
+- Pipeline - Schedule - Job details
+
+![pipeline schedule 1](/images/pipeline_schedule2.jpeg)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+The screencast should demonstrate:
+- Deployed ML Model Endpoint
+- Deployed Pipeline
+- Available ML Model
+- Endpoint Test
+
+Video URL: [Link]() 
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+<!-- #endregion -->
