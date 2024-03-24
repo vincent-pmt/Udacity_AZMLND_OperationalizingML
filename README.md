@@ -99,7 +99,4 @@ Please click here for viewing
 [![Watch the video](https://i9.ytimg.com/vi/THMG2i8j_Cs/mq2.jpg?sqp=CKzy_q8G-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8%3D&rs=AOn4CLCfxO-Ok4Y33hM7lAKH9daghSLjug&retry=4)](https://youtu.be/THMG2i8j_Cs)
 
 ## Standout Suggestions
-I will consider the following item for the project in the future.
-- Load-test the endpoint.
-- Use a Parallel Run Step in a pipeline. 
 <!-- #endregion -->
