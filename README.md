@@ -99,5 +99,11 @@ Please click here for viewing. (Please enable the caption on this video)
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/THMG2i8j_Cs/mq2.webp?sqp=CIyxgbAG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgTih_MA8=&rs=AOn4CLAKmwH7i8juRmatqFPVPQ3p6cuQxA)](https://youtu.be/THMG2i8j_Cs)
 
+
+## Improve in the future
+Leveraging ML Studio By increasing the runtime and scaling up the cluster size, can process larger datasets and complex algorithms with greater speed. 
+Additionally, consider implementing a load test for the model's endpoint. This can be done by completing optional items such as simulating high traffic to the endpoint and measuring its responsiveness.
+And using a Parallel Run Step in your pipeline can enhance performance, which can lead to more efficient handling of large datasets and faster execution times for your machine learning tasks.
+
 ## Standout Suggestions
 <!-- #endregion -->
