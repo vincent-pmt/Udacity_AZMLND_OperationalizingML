@@ -1,7 +1,9 @@
 <!-- #region -->
 # Udacity Project: AML - Operationalizing Machine Learning
 
-Utilize the Bank Marketing dataset to establish a machine learning model in Azure Machine Learning, set it up for cloud-based production, deploy, and then utilize it. Additionally, construct, release, and utilize a pipeline, publish it for wider access, enabling efficient scaling and management of machine learning solutions.
+Utilize the Bank Marketing dataset to establish a machine learning model in Azure Machine Learning, focuses on enhancing the bank's marketing strategies. The model was developed with the assistance of Azure's AutoML capabilities, utilization of the best model are facilitated through a REST endpoint. 
+Additionally, utilize a pipeline for the scalable and efficient way to build, optimize, and manage machine learning workflows
+scalable and efficient way to build, optimize, and manage machine learning workflows, publish it for wider access.
 
 ## Architectural Diagram
 
@@ -68,7 +70,7 @@ Utilize the Bank Marketing dataset to establish a machine learning model in Azur
 
 - Show pipeline endpoint, and active status
 
-![pipeline endpoint](/images/pipeline_endpoint.jpeg)
+![pipeline endpoint](/images/pipeline_endpointactive.jpeg)
 
 - pipeline - bankmarkerting datasets
 
@@ -97,5 +99,7 @@ Please click here for viewing
 [![Watch the video](https://i9.ytimg.com/vi/THMG2i8j_Cs/mq2.jpg?sqp=CKzy_q8G-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8%3D&rs=AOn4CLCfxO-Ok4Y33hM7lAKH9daghSLjug&retry=4)](https://youtu.be/THMG2i8j_Cs)
 
 ## Standout Suggestions
-
+I will consider the following item for the project in the future.
+- Load-test the endpoint.
+- Use a Parallel Run Step in a pipeline. 
 <!-- #endregion -->
