@@ -95,7 +95,7 @@ The screencast should demonstrate:
 - Available ML Model
 - Endpoint Test
 
-Please click here for viewing
+Please click here for viewing. (Please enable the caption on this video)
 [![Watch the video](https://i9.ytimg.com/vi/THMG2i8j_Cs/mq2.jpg?sqp=CKzy_q8G-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8%3D&rs=AOn4CLCfxO-Ok4Y33hM7lAKH9daghSLjug&retry=4)](https://youtu.be/THMG2i8j_Cs)
 
 ## Standout Suggestions
