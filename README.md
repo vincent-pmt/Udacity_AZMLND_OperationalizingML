@@ -4,7 +4,8 @@
 Utilize the Bank Marketing dataset to establish a machine learning model in Azure Machine Learning, set it up for cloud-based production, deploy, and then utilize it. Additionally, construct, release, and utilize a pipeline, publish it for wider access, enabling efficient scaling and management of machine learning solutions.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+![Architectural Diagram](/images/ArchitectualDiagram.jpg)
 
 ## Key Steps
 #### Step 1: Authentication
@@ -92,7 +93,8 @@ The screencast should demonstrate:
 - Available ML Model
 - Endpoint Test
 
-Video URL: [Link]() 
+Please click here for viewing
+[![Watch the video](https://i9.ytimg.com/vi/THMG2i8j_Cs/mq2.jpg?sqp=CKzy_q8G-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8%3D&rs=AOn4CLCfxO-Ok4Y33hM7lAKH9daghSLjug&retry=4)](https://youtu.be/THMG2i8j_Cs)
 
 ## Standout Suggestions
 
